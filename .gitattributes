@@ -1,1 +1,3 @@
-*.* linguist-language=JavaScript
+*.es linguist-language=js
+*.es linguist-language=JS
+*.es linguist-language=JAVASCRIPT
