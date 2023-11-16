@@ -2,6 +2,9 @@
 <br>
 Discover the future of music curation with Bingen's AI playlist generator. Crafted to your preferences, Bingen creates personalized playlists for you to enjoy. Easily add the curated playlist to your music app account and elevate your listening experience.
 <br>
-
-![1](https://github.com/TalMizrahii/Bingen-AI-Playlist-Generator/assets/103560553/10484983-796e-4b3a-b480-2ea2470d849b)
-
+<br>
+<br>
+<img width="1200" alt="1" src="https://github.com/TalMizrahii/Bingen-AI-Playlist-Generator/blob/main/res/1.PNG">
+<img width="1200" alt="1" src="https://github.com/TalMizrahii/Bingen-AI-Playlist-Generator/blob/main/res/2.PNG">
+<img width="1200" alt="1" src="https://github.com/TalMizrahii/Bingen-AI-Playlist-Generator/blob/main/res/3.PNG">
+<img width="1200" alt="1" src="https://github.com/TalMizrahii/Bingen-AI-Playlist-Generator/blob/main/res/4.PNG">
