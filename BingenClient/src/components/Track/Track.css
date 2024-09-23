@@ -1,0 +1,25 @@
+.track-item {
+    border-radius: 0.2rem;
+    background: transparent;
+    font-size: 10px;
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 0;
+    padding: 10px 10px 10px 0;
+}
+
+.track-item-image {
+    float: left;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+
+.track-item-heading,
+.track-item-subheading {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 400px;
+}

@@ -1,0 +1,89 @@
+.bingen__generator-input {
+    padding: 0 2rem;
+    width: 100%;
+    margin: 0;
+}
+
+
+.bingen__header-content__input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.bingen__header-content__input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 0;
+    color: #d6dbee;
+    cursor: pointer;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.bingen__header-content__input button:hover {
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    color: #fff;
+}
+
+@media screen and (max-width: 1050px) {
+    .bingen__header {
+        flex-direction: column;
+    }
+
+    .bingen__header-content {
+        margin: 0 0 3rem;
+    }
+    .bingen__header-content__input button{
+        font-size: 18px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .bingen__header-content__input input {
+        font-size: 10px;
+        line-height: 50px;
+        padding: 0 0.2rem;
+    }
+
+    .bingen__header-content__input button{
+        font-size: 12px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .bingen__generator-input{
+        padding: 0 0.6rem;
+    }
+
+    .bingen__header-content__input input {
+        width: 100px;
+    }
+
+    .bingen__header-content__input button{
+        font-size: 11px;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,143 @@
+#generator {
+    padding: 0;
+    border-radius: 5px;
+}
+
+.loader-container {
+    position: fixed;
+    top: 30%;
+    left: 45%;
+    align-items: center;
+    z-index: 2001;
+}
+
+.loader {
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #3498db;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: 3rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader-text {
+    color: var(--color-subtext);
+    font-family: var(--font-family);
+    white-space: nowrap;
+    z-index: 2002;
+    margin-top: 2rem;
+}
+
+.generator-headline {
+    color: var(--color-subtext);
+    font-size: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    line-height: normal;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+
+.bingen__sides-heading > h2 {
+    color: var(--color-subtext);
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    padding: 0 2rem;
+}
+
+.generator-text {
+    color: var(--color-subtext);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    padding: 0 2rem;
+}
+#bold-text{
+    font-weight: 750;
+}
+
+
+.bingen__generator-image {
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.bingen__generator-image img {
+    width: 100%;
+}
+
+#generator-container {
+    margin-right: 0;
+}
+
+.blurred-background {
+    filter: blur(5px);
+}
+
+
+@media screen and (max-width: 1050px) {
+    .bingen__sides-heading {
+        flex-direction: column;
+    }
+    .loader-container {
+        top: 40%;
+        left: 35%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .generator-headline {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .bingen__sides-heading > h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .bingen__sides-heading > p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .generator-text {
+        font-size: 12px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .generator-headline {
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    .generator-text {
+        font-size: 9px;
+        line-height: 20px;
+    }
+    .loader-container {
+        top: 40%;
+        left: 30%;
+    }
+
+
+}

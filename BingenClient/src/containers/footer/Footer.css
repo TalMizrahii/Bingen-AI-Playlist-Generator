@@ -1,0 +1,141 @@
+.bingen__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+}
+
+.bingen__footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+}
+
+.bingen__footer-links div {
+    width: 250px;
+    margin: 1rem;
+}
+
+.bingen__footer-links_logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.bingen__footer-links_logo img {
+    width: 118px;
+    height: 30px;
+    margin-bottom: 1rem;
+}
+
+.blurred-background {
+    filter: blur(5px);
+}
+
+#footer_logo {
+    cursor: pointer;
+}
+
+.bingen__footer-links_logo p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+}
+
+.bingen__footer-links_div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.bingen__footer-links_div h4 {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: var(--font-family);
+    color: #fff;
+    margin-bottom: 0.9rem;
+}
+
+.bingen__footer-links_div a {
+    font-size: 12px;
+    line-height: 15px;
+    font-family: var(--font-family);
+    color: #d6dbee;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.bingen__footer-links_div a:hover {
+    color: #fff;
+}
+
+.bingen__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.bingen__footer-copyright p {
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 15px;
+    color: #fff;
+}
+
+.bingen__footer-links_div_social {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0;
+}
+
+.bingen__footer-links_div_social img {
+    flex: 1;
+    max-width: 10px;
+    min-width: 30px;
+    margin-right: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+    .bingen__footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .bingen__footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .bingen__footer-links div {
+        margin: 1rem 0;
+    }
+
+    .bingen__footer-btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .bingen__footer-links_div_social img {
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .bingen__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}

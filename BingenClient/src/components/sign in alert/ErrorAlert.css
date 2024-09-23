@@ -1,0 +1,27 @@
+.fixed-alert-container {
+    position: fixed;
+    top: 85px;
+    right: 20px;
+    z-index: 1000;
+    padding: 0;
+    margin: 0;
+    transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
+    font-family: var(--font-family);
+}
+
+.custom-alert {
+    padding: 20px;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    border-radius: 7px;
+    z-index: 1000;
+}
+
+.fadeOut {
+    z-index: 1000;
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bingen__cards {
+    margin: 7.3rem 2rem 2rem;
+    width: 100%;
+    max-height: 75%;
+    height: 60%;
+    overflow-y: auto;
+    position: relative;
+}
+
+article {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 0 clamp(0rem, 2vw, 3rem) clamp(0rem, 2vw, 3rem);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-items-container {
+    margin-bottom: 0.1rem;
+    color: var(--color-subtext);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.list-heading {
+    color: var(--color-subtext);
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: fixed;
+    z-index: 1010;
+    margin: 1.5rem 1.5rem 1.5rem 4rem;
+    padding: 1rem;
+    width: 85%;
+}
+
+@media screen and (max-width: 700px) {
+    .list-heading {
+        width: 85%;
+        margin-left: 2rem;
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .list-heading {
+        width: 85%;
+        margin-left: 1.5rem;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .list-heading {
+        width: 85%;
+        margin-left: 1rem;
+        font-size: 20px;
+    }
+}
+
+article > * + * {
+    margin-top: 1rem;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+    gap: 0.5rem;
+}
+
+dt {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+dd {
+    margin: 0;
+}
+
+.bingen__cards::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.bingen__cards::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.bingen__cards {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+.bingen__cards {
+    -ms-overflow-style: none;
+}
+
+.bingen__cards::-webkit-scrollbar,
+.bingen__cards::-webkit-scrollbar-thumb {
+    width: 0 !important;
+    background: transparent !important;
+}
+
+@media screen and (max-width: 850px) {
+    .bingen__cards {
+    }
+}

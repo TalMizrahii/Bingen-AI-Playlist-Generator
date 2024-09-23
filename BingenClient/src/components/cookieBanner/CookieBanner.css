@@ -1,0 +1,67 @@
+#cb-cookie-banner {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000000;
+    padding: 2rem;
+    background: linear-gradient(90deg, rgba(48,55,56,1) 0%, rgba(19,22,40,1) 50%, rgba(7,7,38,1) 100%);
+    border-radius: 7px;
+    margin: 1rem;
+    color: white;
+    font-family: var(--font-family);
+}
+
+.cookie-banner-headline {
+    font-size: 30px;
+    font-family: var(--font-family);
+    margin: 1rem;
+}
+
+.cookies-banner-text {
+    margin: 1rem;
+    line-height: 30px;
+}
+.cookies-banner-text a {
+    text-decoration: underline;
+}
+
+.cookies-banner-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.cookies-banner-btn button {
+    background: #000;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.5rem 0;
+    border-radius: 2rem;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+@media screen and (max-width: 850px) {
+    .cookie-banner-headline {
+        font-size: 22px;
+        font-family: var(--font-family);
+        margin: 1rem;
+    }
+
+    .cookies-banner-text {
+        margin: 1rem;
+        line-height: 25px;
+    }
+
+    .cookies-banner-btn button {
+        font-size: 14px;
+        line-height: 28px;
+        min-width: 120px;
+    }
+}

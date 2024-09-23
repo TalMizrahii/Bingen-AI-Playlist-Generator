@@ -1,0 +1,10 @@
+export {default as Blog} from "./blog/Blog";
+export {default as Features } from "./features/Features";
+export {default as Footer} from "./footer/Footer";
+export {default as Header} from "./header/Header";
+export {default as Possibility} from "./possibility/Possibility";
+export {default as Wib} from "./What is Bingen/Wib";
+export {default as Generator} from "./generator/Generator";
+export {default as SongList} from "./songList/SongList";
+export {default as Cards} from "./Cards/Cards";
+export {default as Info} from "./info/Info";

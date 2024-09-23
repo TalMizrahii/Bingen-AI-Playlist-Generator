@@ -1,0 +1,88 @@
+.bingen__cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background: var(--gradient-bar)
+}
+
+.bingen__cta-content {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+    color: #000;
+}
+
+.bingen__cta-content p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.bingen__cta-content h3 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 800;
+}
+
+.bingen__cta-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 2rem;
+}
+
+.bingen__cta-btn button {
+    background: #000;
+    color: #d6dbee;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+.bingen__cta-btn button:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 650px) {
+    .bingen__cta {
+        flex-direction: column;
+    }
+
+    .bingen__cta-btn {
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .bingen__cta {
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+
+    .bingen__cta-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .bingen__cta-btn button {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
