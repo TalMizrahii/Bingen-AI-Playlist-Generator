@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb46abd1.css",
+    "main.js": "/static/js/main.de53082e.js",
+    "static/media/blog3.jpg": "/static/media/blog3.1ebed1d254183ccbf261.jpg",
+    "static/media/brand.png": "/static/media/brand.15f325ddfbf11c7912dd.png",
+    "static/media/blog2.jpg": "/static/media/blog2.e8c7ec9cedc7e3ccfcc7.jpg",
+    "static/media/generatorPicture.png": "/static/media/generatorPicture.37375a3a8bdeb88d68b2.png",
+    "static/media/headerImg.png": "/static/media/headerImg.cb9b61a2095f2b88fc43.png",
+    "static/media/posimg.png": "/static/media/posimg.9bdc11af08de23057434.png",
+    "static/media/chatgptlogo.png": "/static/media/chatgptlogo.c56aafc7ebfafbd1e1d5.png",
+    "static/media/spotify.png": "/static/media/spotify.f1d370457386758b78f7.png",
+    "static/media/openai.png": "/static/media/openai.2bdb4f02f5d64e8ad9d5.png",
+    "static/media/blog4.jpg": "/static/media/blog4.28013cfafb56c6d2096f.jpg",
+    "static/media/blog5.jpg": "/static/media/blog5.7eff455ca9a7e94d6c6a.jpg",
+    "static/media/blog1.jpg": "/static/media/blog1.a2610b69aa5557b47689.jpg",
+    "static/media/logowhite.png": "/static/media/logowhite.cf53d76e630e6ee5db3d.png",
+    "static/media/spotifylogo.png": "/static/media/spotifylogo.062e11b8ea1aa2a390c9.png",
+    "static/media/icon.png": "/static/media/icon.1d473f61288fc06bd2d4.png",
+    "index.html": "/index.html",
+    "main.fb46abd1.css.map": "/static/css/main.fb46abd1.css.map",
+    "main.de53082e.js.map": "/static/js/main.de53082e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb46abd1.css",
+    "static/js/main.de53082e.js"
+  ]
+}
